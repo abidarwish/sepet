@@ -11,29 +11,29 @@ MCKP_SOURCE_CODE=""
 DICTIONARY="dictionary.txt"
 
 function header() {
-	echo -e ${GREEN}" ${VERSIONNAME}${VERSIONNUMBER}" ${NOCOLOR}
+    echo -e ${GREEN}" ${VERSIONNAME}${VERSIONNUMBER}" ${NOCOLOR}
 	echo -e " by ${WHITE}Abi Darwish${NOCOLOR}"
 }
 
 function translatorEngine() {
-    	while IFS= read -r LINE; do
-		CHINESE_LANG=$(echo ${LINE} | awk -F= '{print $1}')
-		ENGLISH_LANG=$(echo ${LINE} | awk -F= '{print $2}')
-		sed -i "s/${CHINESE_LANG}/${ENGLISH_LANG}/" "${MCKP_SOURCE_CODE}"
-    	done <"${DICTIONARY}"
+    while IFS= read -r LINE; do
+        CHINESE_LANG=$(echo ${LINE} | awk -F= '{print $1}')
+        ENGLISH_LANG=$(echo ${LINE} | awk -F= '{print $2}')
+        sed -i "s/${CHINESE_LANG}/${ENGLISH_LANG}/" "${MCKP_SOURCE_CODE}"
+    done <"${DICTIONARY}"
 }
 
 function translate() {
-	    clear
-	    header
-	    echo
-	    read -p " Source code filename: " MCKP_SOURCE_CODE
-	    [[ -z ${MCKP_SOURCE_CODE} ]] && translate
-	    echo -e -n " Translating..."
-	    translatorEngine 2>&1
-	    echo -e ${GREEN}"done"${NOCOLOR}
-	    echo
-	    exit 0
+    clear
+    header
+    echo
+    read -p " Source code filename: " MCKP_SOURCE_CODE
+    [[ -z ${MCKP_SOURCE_CODE} ]] && translate
+    echo -e -n " Translating..."
+    translatorEngine 2>&1
+    echo -e ${GREEN}"done"${NOCOLOR}
+    echo
+    exit 0
 }
 
 translate
