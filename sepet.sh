@@ -38,4 +38,26 @@ function translate() {
 	exit 0
 }
 
-translate
+function reset() {
+	clear
+	header
+	echo
+	echo -e -n " Resetting..."
+	mv /koolshare/merlinclash/webs/Module_merlinclash.asp.bak /koolshare/merlinclash/webs/Module_merlinclash.asp
+	sleep 3
+	echo -e "${GREEN}done${NOCOLOR}"
+	sleep 1
+	echo
+	exit 0
+}
+
+[[ ! -e /koolshare/merlinclash/webs/Module_merlinclash.asp.bak ]] && translate
+clear
+header
+echo
+read -p " Do you want to reset MCKP back to original Chinese?[y/n]: " RESET
+[[ ${RESET,,} != "y" ]] && translate
+reset
+	
+
+
