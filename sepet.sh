@@ -1,15 +1,15 @@
 #!/bin/bash
 #script by Abi Darwish https://t.me/abidarwish
 
-VERSIONNAME="Sepet v"
-VERSIONNUMBER="1.0"
-GREEN="\e[1;32m"
-RED="\e[;31m"
-WHITE="\e[1m"
+#VERSIONNAME="Sepet v"
+#VERSIONNUMBER="1.0"
+GREEN='\e[1;32m'
+RED='\e[;31m'
+WHITE='\e[1m'
 NOCOLOR='\e[0m'
 
 function header() {
-	echo -e ${GREEN}" ${VERSIONNAME}${VERSIONNUMBER}" ${NOCOLOR}
+	echo -e ${GREEN}" Sepet v1.0"${NOCOLOR}
 	echo -e " by ${WHITE}Abi Darwish${NOCOLOR}"
 }
 
