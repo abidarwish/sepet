@@ -280,3 +280,4 @@ Clash才能生效=Clash to take effect
 日志记录=logging
 当前配置=current configuration
 DC用户=DC user
+如果您的机场没提供订阅=if your airport does not offer subscriptions
