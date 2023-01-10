@@ -7,8 +7,6 @@ GREEN="\e[1;32m"
 RED="\e[;31m"
 WHITE="\e[1m"
 NOCOLOR='\e[0m'
-DICTIONARY="dictionary.txt"
-MCKP_SOURCE_CODE="/koolshare/webs/Module_merlinclash.asp"
 
 function header() {
 	echo -e ${GREEN}" ${VERSIONNAME}${VERSIONNUMBER}" ${NOCOLOR}
