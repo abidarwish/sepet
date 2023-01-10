@@ -50,7 +50,7 @@ function restore() {
 	echo -e "${GREEN}done${NOCOLOR}"
 	sleep 1
 	echo
-	exit
+	exit 0
 }
 
 [[ ! -e /koolshare/merlinclash/webs/Module_merlinclash.asp.bak ]] && translate
