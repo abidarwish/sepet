@@ -7,5 +7,5 @@ Sepet is a terminal-based app to translate Asus Merlin Clash Koolshare Proxy or 
 To install, SSH into Merlin Koolshare with MCKP installed and run this command:
 
 ```
-rm -rf sepet && wget -q -O sepet "https://raw.githubusercontent.com/abidarwish/sepet/main/sepet.sh" && chmod +x sepet && ./sepet
+rm -rf sepet && wget -q -O sepet "https://raw.githubusercontent.com/abidarwish/sepet/main/sepet.sh" && bash sepet
 ```
