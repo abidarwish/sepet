@@ -1,8 +1,6 @@
 #!/bin/bash
 #script by Abi Darwish https://t.me/abidarwish
 
-#VERSIONNAME="Sepet v"
-#VERSIONNUMBER="1.0"
 GREEN='\e[1;32m'
 RED='\e[;31m'
 WHITE='\e[1m'
