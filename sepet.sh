@@ -8,6 +8,7 @@ RED="\e[;31m"
 WHITE="\e[1m"
 NOCOLOR='\e[0m'
 DICTIONARY="dictionary.txt"
+MCKP_SOURCE_CODE="/koolshare/merlinclash/webs/Module_merlinclash.asp"
 
 function header() {
 	echo -e ${GREEN}" ${VERSIONNAME}${VERSIONNUMBER}" ${NOCOLOR}
@@ -26,12 +27,11 @@ function translate() {
 	clear
 	header
 	echo
-	read -p " Source code filename: " MCKP_SOURCE_CODE
-	[[ -z ${MCKP_SOURCE_CODE} ]] && translate
 	echo -e -n " Translating..."
 	rm -rf dictionary.txt
 	wget -q -O dictionary.tmp "https://raw.githubusercontent.com/abidarwish/sepet/main/dictionary.txt"
 	cat dictionary.tmp | sort | uniq >dictionary.txt
+	[[ ! -e /koolshare/merlinclash/webs/Module_merlinclash.asp.bak ]] && cp /koolshare/merlinclash/webs/Module_merlinclash.asp /koolshare/merlinclash/webs/Module_merlinclash.asp.bak
 	translatorEngine 2>&1
 	echo -e ${GREEN}"done"${NOCOLOR}
 	echo
