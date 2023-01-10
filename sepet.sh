@@ -8,7 +8,7 @@ RED="\e[;31m"
 WHITE="\e[1m"
 NOCOLOR='\e[0m'
 DICTIONARY="dictionary.txt"
-MCKP_SOURCE_CODE="/koolshare/merlinclash/webs/Module_merlinclash.asp"
+MCKP_SOURCE_CODE="/koolshare/webs/Module_merlinclash.asp"
 
 function header() {
 	echo -e ${GREEN}" ${VERSIONNAME}${VERSIONNUMBER}" ${NOCOLOR}
@@ -31,7 +31,7 @@ function translate() {
 	rm -rf dictionary.txt
 	wget -q -O dictionary.tmp "https://raw.githubusercontent.com/abidarwish/sepet/main/dictionary.txt"
 	cat dictionary.tmp | sort | uniq >dictionary.txt
-	[[ ! -e /koolshare/merlinclash/webs/Module_merlinclash.asp.bak ]] && cp /koolshare/merlinclash/webs/Module_merlinclash.asp /koolshare/merlinclash/webs/Module_merlinclash.asp.bak
+	[[ ! -e /koolshare/webs/Module_merlinclash.asp.bak ]] && cp /koolshare/webs/Module_merlinclash.asp /koolshare/webs/Module_merlinclash.asp.bak
 	translatorEngine 2>&1
 	echo -e ${GREEN}"done"${NOCOLOR}
 	echo
@@ -45,7 +45,7 @@ function restore() {
 	read -p " Do you want to restore MCKP back to the original Chinese?[y/n]: " RESTORE
 	[[ ${RESTORE,,} != "y" ]] && translate
 	echo -e -n " Restoring..."
-	mv /koolshare/merlinclash/webs/Module_merlinclash.asp.bak /koolshare/merlinclash/webs/Module_merlinclash.asp
+	mv /koolshare/webs/Module_merlinclash.asp.bak /koolshare/webs/Module_merlinclash.asp
 	sleep 3
 	echo -e "${GREEN}done${NOCOLOR}"
 	sleep 1
@@ -53,5 +53,5 @@ function restore() {
 	exit 0
 }
 
-[[ ! -e /koolshare/merlinclash/webs/Module_merlinclash.asp.bak ]] && translate
+[[ ! -e /koolshare/webs/Module_merlinclash.asp.bak ]] && translate
 restore
