@@ -1,2 +1,2 @@
 # sepet
-Sepet is a shell-based app to translate Merlin Clash (MCKP) Chinese language into English version.
+Sepet is a shell-based app to translate Merlin Clash (MCKP) from Chinese to English language.
