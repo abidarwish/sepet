@@ -7,7 +7,6 @@ GREEN="\e[1;32m"
 RED="\e[;31m"
 WHITE="\e[1m"
 NOCOLOR='\e[0m'
-MCKP_SOURCE_CODE=""
 DICTIONARY="dictionary.txt"
 
 function header() {
