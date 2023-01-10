@@ -23,34 +23,31 @@
 视频规则=video rules
 自定规则=custom rules
 本地转换=local conversion
-自定规则
-自定规则模式
-我不需要
-自定义模式
-修改提交
-不懂勿动
-编辑完成后点击
-修改提交
-保存
-下次启动后生效
-开启编辑
-脚本编辑
-修改提交
-转发白名单
-强制转发到
-编辑完成后点击
-修改提交
-保存
-提交后生效
-开启编辑
-域名集编辑
-一行一个
-可以带掩码声明
-修改提交
-转发黑名单
-强制绕行
-编辑完成后点击
-修改提交
-保存
-提交后生效
-开启编辑
+自定规则=custom rules
+自定规则模式=custom rule mode
+我不需要=I do not need
+自定义模式=custom mode
+修改提交=modify commit
+不懂勿动=Don't change if you don't understand
+编辑完成后点击=After editing, click
+修改提交=modify commit
+保存=save
+下次启动后生效=Take effect after the next startup
+开启编辑=open edit
+脚本编辑=script editing
+修改提交=modify commit
+转发白名单=forwarding whitelist
+强制转发到=force forward to
+编辑完成后点击=After editing, click
+修改提交=modify commit
+提交后生效=Effective after submission
+开启编辑=open edit
+域名集编辑=Domain SetEdit
+一行一个=A row
+可以带掩码声明=Can be declared with a mask
+修改提交=modify commit
+转发黑名单=forwarding blacklist
+强制绕行=forced bypass
+编辑完成后点击=After editing, click
+备份=backup
+恢复=restore
