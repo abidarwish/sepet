@@ -25,7 +25,7 @@ function translate() {
 	echo
 	echo -e -n " Translating..."
 	rm -rf dictionary.tmp
-	wget -q -O dictionary.tmp "https://raw.githubusercontent.com/abidarwish/sepet/main/dictionary.txt"
+	wget -q -O dictionary.tmp "https://raw.githubusercontent.com/abidarwish/sepet/main/dictionary"
 	cat dictionary.tmp | sort | uniq >dictionary
 	[[ ! -e /koolshare/webs/Module_merlinclash.asp.bak ]] && cp /koolshare/webs/Module_merlinclash.asp /koolshare/webs/Module_merlinclash.asp.bak
 	translatorEngine 2>&1
