@@ -96,86 +96,85 @@
 你确定要更新规则文件吗=Are you sure you want to update the rules file
 你需要重启插件=You need to restart the plugin
 使用代理且开启大陆绕行后=After using a proxy and enabling continental bypass
-使用代理后
-使用帮助
-使用开启
-使用开启转发
-使用开启转发实现透明代理
-使用由提供的
-使用的数据库
-使用自定订阅
-使用配置文件设定
-启动
+使用代理后=After using the proxy
+使用帮助=Using help
+使用开启=use open
+使用开启转发=Turn on forwarding using
+使用开启转发实现透明代理=Use open forwarding to implement transparent proxy
+使用由提供的=Use the provided by
+使用的数据库=database used
+使用自定订阅=Use custom subscription
+使用配置文件设定=Use configuration file settings
+启动=start up
 保存=keep
-保存并重启	
-保存文
-保存文件
-保存设置 
-信息
+保存并重启=save and restart
+保存文=save file
+保存文件=save document
+保存设置=Save Settings
+信息=information
 修改提交=modify commit
-修改自定规则模式显示
-修改运行模式
-全分组多国家地区	
-全分组多国家地区
-全分组多模式
-全分组奈飞全量
-全分组无自动测速
-全分组更多去广告
-全分组谷歌细分
-全分组重度用户使用
-全局模式
-全部删除	
-公网访问面板开启
-六
-关闭
-关闭后只能通过连接
-关闭透明代理
-其他订阅转换规则
-其它主机
-兼容性良好
-内容
-内容不能为空
-内容编辑 
-内置
-常规规则
-更新
-内置专属规则	
-内置项目规则
-分
-分割文件名
-分钟
+修改自定规则模式显示=Modify custom rule mode display
+修改运行模式=Modify the operating mode
+全分组多国家地区=Fully grouped multi-country regions
+全分组多模式=full group multimode
+全分组奈飞全量=Full group Netflix full volume
+全分组无自动测速=Full group without automatic speed test
+全分组更多去广告=Full group more advertising
+全分组谷歌细分=Full Group Google Segments
+全分组重度用户使用=All groups of heavy users use
+全局模式=global pattern
+全部删除=delete all
+公网访问面板开启=Open the public network access panel
+六=six
+关闭=closure
+关闭后只能通过连接=After closing, it can only be connected through the
+关闭透明代理=Disable transparent proxy
+其他订阅转换规则=Additional Subscription Transition Rules
+其它主机=other hosts
+兼容性良好=good compatibility
+内容=content
+内容不能为空=the content can not be blank
+内容编辑=edit content
+内置=built-in
+常规规则=general rules
+更新=renew
+内置专属规则=Built-in Exclusive Rules
+内置项目规则=built-in project rules
+分=Minute
+分割文件名=split filename
+分钟=minute
 则不进一步检查补丁=then do not check the patch further
-则变成被选中状态
-初始化页面时决定栏目显示哪个层
-初次未登录
-删除
-删除所有自定规则
-开始
-删除所有自定规则
-结束
-删除文件
-删除配置 
-别名
-到期时间
-刷新页面重试
-功能显示开关
-加速
-劫持入口
-劫持局域网内所有请求
-勾选使用
-勾选后提交生效
-包含节点
-匹配
-区域内容不能为空
-区域内容有误
-区域文本保存
-协议
-参数
-参考格式
-只支持上传后缀的文件
-只支持上传后缀的配置文件
-只支持单个订阅地址
-只有在
+则变成被选中状态=becomes selected
+初始化页面时决定栏目显示哪个层=Determine which layer the column displays when initializing the page
+初次未登录=Not logged in for the first time
+删除=delete
+删除所有自定规则=delete all custom rules
+开始=start
+删除所有自定规则=delete all custom rules
+结束=Finish
+删除文件=Delete Files
+删除配置=delete configuration
+别名=alias
+到期时间=Expire date
+刷新页面重试=Refresh the page to try again
+功能显示开关=function display switch
+加速=accelerate
+劫持入口=Hijack the entrance
+劫持局域网内所有请求=Hijack all requests in the LAN
+勾选使用=Tick ​to use
+勾选后提交生效=Submit to take effect after ticking
+包含节点=contains nodes
+匹配=match
+区域内容不能为空=Area content cannot be empty
+区域内容有误=Incorrect field content
+区域文本保存=Area text preservation
+协议=protocol
+参数=parameter
+参考格式=reference format
+只支持上传后缀的文件=Only supports uploading files with suffixes
+只支持上传后缀的配置文件=Only upload configuration files with suffixes are supported
+只支持单个订阅地址=Only supports a single subscription address
+只有在=only in
 只检测您浏览器当前状况=Only detect the current state of your browser
 只能由字母和数字组成
 可以使用插件内置的种
