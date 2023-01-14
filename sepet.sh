@@ -34,8 +34,8 @@ function translate() {
 	#cat dictionary.tmp | sort | uniq >dictionary
 	rm -rf dictionary
 	wget -q -O dictionary "https://raw.githubusercontent.com/abidarwish/sepet/main/dictionary"
-	rm -rf dictionary2
-	wget -q -O dictionary2 "https://raw.githubusercontent.com/abidarwish/sepet/main/dictionary2"
+	# rm -rf dictionary2
+	# wget -q -O dictionary2 "https://raw.githubusercontent.com/abidarwish/sepet/main/dictionary2"
 	[[ ! -e /koolshare/webs/Module_merlinclash.asp.bak ]] && cp /koolshare/webs/Module_merlinclash.asp /koolshare/webs/Module_merlinclash.asp.bak
 	translatorEngine 2>&1
 	echo -e ${GREEN}"done"${NOCOLOR}
