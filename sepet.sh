@@ -17,11 +17,11 @@ function translatorEngine() {
 		ENGLISH_LANG=$(echo ${LINE} | awk -F= '{print $2}')
 		sed -i "s/${CHINESE_LANG}/${ENGLISH_LANG}/" "/koolshare/webs/Module_merlinclash.asp"
 	done <"dictionary"
-	while IFS= read -r LINE; do
-		CHINESE_LANG=$(echo ${LINE} | awk -F= '{print $1}')
-		ENGLISH_LANG=$(echo ${LINE} | awk -F= '{print $2}')
-		sed -i "s/${CHINESE_LANG}/${ENGLISH_LANG}/" "/koolshare/webs/Module_merlinclash.asp"
-	done <"dictionary2"
+	# while IFS= read -r LINE; do
+	# 	CHINESE_LANG=$(echo ${LINE} | awk -F= '{print $1}')
+	# 	ENGLISH_LANG=$(echo ${LINE} | awk -F= '{print $2}')
+	# 	sed -i "s/${CHINESE_LANG}/${ENGLISH_LANG}/" "/koolshare/webs/Module_merlinclash.asp"
+	# done <"dictionary2"
 }
 
 function translate() {
