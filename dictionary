@@ -299,7 +299,7 @@
 底行=bottom row
 底部按钮=bottom button
 开了=opened
-开关=switch
+开关=Switch
 开启=turn on
 开启后=After opening
 开启后如果无法外网访问=If you cannot access from the external network after opening
@@ -318,7 +318,7 @@
 当前使用的文件不予删除=Files currently in use are not deleted
 当前套餐=current package
 当前版本=current version
-当前配置=current configuration
+当前配置=Current Config
 当前配置为=Currently configured as
 当前配置栏=current configuration bar
 当开启时=when turned on
@@ -363,7 +363,7 @@
 教程=tutorial
 数据交互=Data interaction
 数据库=database
-文件=document
+配置文件=Configuration
 文件下载=document dowload
 文件下载与更新=File download and update 
 文件不能为空=file cannot be empty
@@ -388,7 +388,7 @@
 无自动测速=No automatic speed measurement
 无设置=no settings
 无需手动设置代理=No manual proxy setup required
-日=day
+日志记录=Log
 日志记录=logging
 日志记录栏=logging column
 旧版=old version
@@ -442,11 +442,10 @@
 栏目点击切换=Column click to switch
 核专用=Core dedicated
 根据设定的时间=according to the set time
-检查=an examination
 检查日志延迟功能开启=Check log delay function enabled
 检查日志延迟时间=Check log latency
 检查版本更新=Check for version updates
-模式=model
+高级模式=Advanced
 模式下=mode
 模式切换=mode switch
 正在运行的时候才可以访问=Can only be accessed while running
@@ -473,8 +472,7 @@
 版本=Version
 版本以上=version above
 版本检查=version check
-状态=state
-状态检查=status check
+状态检查=Status check 
 状态检测=state detection
 猫熊=panda bear
 生成证书=generate certificate
@@ -614,7 +612,7 @@
 订阅链接不能为空=Subscription link cannot be empty
 设备必须为路由=The device must be routed
 设置=set up
-访问=access
+访问检查=Access check
 访问控制=Access control
 访问控制匹配方法=Access Control Matching Method
 访问控制更新=Access Control Updates
@@ -666,9 +664,8 @@
 过滤名单=filter list
 过滤站点需要为相应设备安装证书=Filtering sites requires a certificate to be installed for the corresponding device
 过滤非法节点=Filter illegal nodes
-运行模式=operating mode
-运行状态=Operating status
-运行状态=Operating status
+运行模式=Operating Mode
+运行状态=Operating Status
 返利=rebate
 返回主界面=back to main interface
 返回软件中心=Back to Software Center
@@ -685,7 +682,6 @@
 远端取值出错了=The remote value is wrong
 远端版本=remote version
 远端版本大于本地版本=The remote version is greater than the local version
-连接=connect
 连接并发=concurrent connection
 连接方式=connection method
 连接方式不能为空=Connection method cannot be empty
@@ -743,7 +739,7 @@
 音源最大搜索结果需=Audio source maximum search results required
 预解析奈飞=Preparse Netflix
 预解析检查间隔=Preparse check interval
-首页=front page
+首页=Main Page
 首页功能=Home Features
 首页功能区=Home Ribbon
 高级模式=advanced mode
@@ -768,3 +764,7 @@
 默认端口=default port
 默认规则=default rule
 访问在线=Visit the online
+需要=need
+新加坡=Singapore
+配置文件选择=Profile Selection
+点击切换直接生效=Click to switch to take effect directly
