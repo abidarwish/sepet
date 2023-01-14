@@ -84,7 +84,6 @@
 仍要上传二进制吗=Do you still want to upload the binary
 仍要上传安装补丁吗=Do you still want to upload and install the patch?
 仍要上传规则包吗=Do you still want to upload the rules package
-代理=acting
 代理路由自身访问=Proxy routing itself access
 代码部分=code part
 优先级高于访问控制规则=Takes precedence over access control rules
@@ -393,7 +392,6 @@
 旧版=old version
 旧版解锁失效可尝试新版=If the old version is unlocked, you can try the new version
 时=Time
-是一个基于规则的代理程序=is a rule-based agent
 显示广告区=display ad area
 显示登陆栏=show login bar
 显示默认页=show default page
@@ -514,7 +512,6 @@
 端口=port
 端口代理=port proxy
 端口转发=port forwarding
-等方式科学上网=Etc. Scientific Internet
 筛选包含关键字的节点名=Filter node names that contain keywords
 管理面板=admin panel
 面板密码=panel password
