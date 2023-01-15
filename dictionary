@@ -1,4 +1,7 @@
-
+导入Clash配置文件=Import Clash Config File
+导入科学节点=Import Science Node
+导入配置文件=Import Config File
+手动上传Clash配置文件=Manually Upload Clash Config File
 配置文件=Config File
 只有在 Clash 正在运行的时候才可以访问 Clash 管理面板=The Clash Admin Panel can only be accessed when Clash is running
 保存\&启动=Save \& Start
@@ -301,9 +304,6 @@ DNS劫持入口=DNS Hijack The Entrance
 客户端建议开启=The client recommends opening
 密码=password
 不能为空=Can not be empty
-导入=import
-导入科学节点=import science node
-导入配置文件=import configuration file
 导出全局数据=export global data
 导出日志=Export Log
 导出绕行设置以及还原=Export bypass settings and restore
@@ -366,8 +366,6 @@ DNS劫持入口=DNS Hijack The Entrance
 或者使用=or use
 或者参阅=or see
 所有主机=all hosts
-手动上传=manual upload
-手动上传配置文件=Manually upload configuration files
 手动关闭=close manually
 才能生效=to take effect
 护娃狂魔=baby guard
