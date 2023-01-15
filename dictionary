@@ -1,4 +1,5 @@
 
+^配置文件=Config File
 只有在 Clash 正在运行的时候才可以访问 Clash 管理面板=The Clash Admin Panel can only be accessed when Clash is running
 保存\&启动=Save \& Start
 管理面板\：=Admin Panel\:
