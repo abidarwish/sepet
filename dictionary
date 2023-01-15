@@ -3,9 +3,9 @@
 保存\&启动=Save \& Start
 管理面板：=Admin Panel\:
 面板密码：=Panel Password\:
-【Clash本次启动时间】：=Clash start time\:
-Clash 进程运行正常！=Clash process is running fine
-Clash 看门狗未在运行！=Clash watchdog is not running
+\【Clash本次启动时间\】：=Clash start time\:
+Clash 进程运行正常\！=Clash process is running fine
+Clash 看门狗未在运行\！=Clash watchdog is not running
 只有在正在运行的时候才可以访问 Clash 管理面板=The Clash Admin Panel can only be accessed while it is running
 配置文件选择=Profile Selection
 null 新加坡=null Singapore
