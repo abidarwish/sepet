@@ -16,7 +16,6 @@ SubConverter本地转换=SubConverter local conversion
 科学上网=Science Online
 \】同时运行。开启后如果Aria2\/AiCloud无法外网访问，请设置=\) run at the same time. If Aria2\/AiCloud cannot be accessed from the external network after it is enabled, please set
 端口转发= port forwarding
-
 公告区\：\【KC版本\】=Announcement\: \(KC version\)
 已发，建议及时更新= sent, it is recommended to update in time
 公告区\：若Chrome\/Edge访问在线YACD\/Razord面板登录失败，按照 =Announcement\: If Chrome\/Edge fails to login to the online YACD\/Razord panel, follow the
