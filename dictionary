@@ -1,10 +1,15 @@
+
 只有在 Clash 正在运行的时候才可以访问 Clash 管理面板=The Clash Admin Panel can only be accessed when Clash is running
 保存\&启动=Save \& Start
 只有在正在运行的时候才可以访问 Clash 管理面板=The Clash Admin Panel can only be accessed while it is running
 配置文件选择=Profile Selection
 null 新加坡=null Singapore
-是一个基于规则的代理程序，支持= is a rule-based agent that supports
+是一个基于规则的代理程序，支持= is a rule-based agent that supports 
 、=,
+SSR、= SSR,
+V2Ray、= V2RAY,
+Trojan、= Trojan,
+Vless= Vless
 等方式科学上网。= and other ways to scientifically surf the Internet.
 注意：1.Clash需要专用订阅或配置文件才可以使用，如果您的机场没提供订阅，可以使用插件内置的2种\【=Note: 1. Clash needs a dedicated subscription or configuration file to use. If your airport does not provide subscriptions, you can use the two built-in plug-ins \(
 规则转换=rule conversion
