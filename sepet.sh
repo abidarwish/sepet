@@ -15,7 +15,7 @@ function translatorEngine() {
 	while IFS= read -r LINE; do
 		CHINESE_LANG=$(echo ${LINE} | awk -F= '{print $1}')
 		ENGLISH_LANG=$(echo ${LINE} | awk -F= '{print $2}')
-		sed -E -i "s/^${CHINESE_LANG}/${ENGLISH_LANG}/" "/koolshare/webs/Module_merlinclash.asp"
+		sed -E -i "s/${CHINESE_LANG}/${ENGLISH_LANG}/" "/koolshare/webs/Module_merlinclash.asp"
 	done <"dictionary"
 }
 
@@ -26,7 +26,6 @@ function translate() {
 	echo -e -n " Translating..."
 	rm -rf dictionary
 	wget -q -O dictionary "https://raw.githubusercontent.com/abidarwish/sepet/main/dictionary"
-	# wget -q -O dictionary2 "https://raw.githubusercontent.com/abidarwish/sepet/main/dictionary2"
 	[[ ! -e /koolshare/webs/Module_merlinclash.asp.bak ]] && cp /koolshare/webs/Module_merlinclash.asp /koolshare/webs/Module_merlinclash.asp.bak
 	translatorEngine 2>&1
 	echo -e ${GREEN}"done"${NOCOLOR}
