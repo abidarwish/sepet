@@ -1,3 +1,4 @@
+配置文件选择=Profile Selection
 是一个基于规则的代理程序，支持=is a rule-based agent that supports
 、=,
 等方式科学上网。=and other ways to scientifically surf the Internet.
@@ -723,7 +724,6 @@ Merlin Clash开关=Merlin Clash Switch
 配置文件不能为空=The configuration file cannot be empty
 配置文件处理=Configuration file handling
 配置文件栏=profile bar
-配置文件选择=Profile Selection
 采取分段保存=Save in segments
 重启=reboot
 重启解锁进程=Restart the unlocking process
