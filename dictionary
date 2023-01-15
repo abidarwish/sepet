@@ -1,3 +1,4 @@
+正在运行的时候才可以访问=Can only be accessed while running
 配置文件选择=Profile Selection
 null 新加坡=null Singapore
 是一个基于规则的代理程序，支持=is a rule-based agent that supports
@@ -472,7 +473,6 @@ DNS劫持入口=DNS Hijack The Entrance
 高级模式=Advanced
 模式下=mode
 模式切换=mode switch
-正在运行的时候才可以访问=Can only be accessed while running
 此时为空=empty at this time
 每周=weekly
 每天=every day
