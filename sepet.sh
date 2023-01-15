@@ -47,7 +47,7 @@ function restore() {
 	clear
 	header
 	echo
-	read -p " Do you want to restore MCKP back to the original Chinese?[y/n]: " RESTORE
+	read -p " Do you want to restore MCKP back to the original Chinese? [y/n]: " RESTORE
 	[[ ${RESTORE} != "y" ]] && translate
 	echo -e -n " Restoring..."
 	mv /koolshare/webs/Module_merlinclash.asp.bak /koolshare/webs/Module_merlinclash.asp
