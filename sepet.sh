@@ -51,7 +51,7 @@ function restore() {
 	[[ ${RESTORE} != "y" ]] && translate
 	echo -e -n " Restoring..."
 	mv /koolshare/webs/Module_merlinclash.asp.bak /koolshare/webs/Module_merlinclash.asp
-	sleep 3
+	sleep 1
 	echo -e "${GREEN}done${NOCOLOR}"
 	sleep 1
 	echo
